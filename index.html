@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<br>
+    <form autocomplete="off" class="form">
+        <p class="title">Registry Form</p>
+        <p class="message">Sign up now!</p>
+
+    <div class="form-group">
+    <label>
+        <input type="text" name="full-name" placeholder="Full Name" required />
+    </label>
+</div>
+  
+<div class="form-group">
+     <label for="email">
+     <input type="email" id="email" name="email" placeholder="Your Email" required>
+</label>
+</div>
+
+<div class="form-group">
+    <label for="password">
+    <input type="password" id="Password" placeholder="Password" required>
+    </label>
+</div>
+
+<div class="form-group">
+    <label for="password">
+    <input type="password" id="confirm" placeholder="Confirm Password" required>
+    </label>
+</div>
+
+<div class="form-group">
+    <label for="gender" id="mf" aria-placeholder="Gender" aria-required="true" style="color: aliceblue;">Gender
+    <select name="gender" id="mf">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    </label>
+</div>
+
+<div>
+    <input type="submit" class="submit"> 
+
+<br>
+<br>
+    <p class="signin">
+        Already got an account?
+        <a href="#">Sign in!</a>
+    </p>
+
+</div>
+
+    </form>
+
+    <script src="script.js"></script>
+<br>
+
+</body>
+</html>
