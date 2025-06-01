@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: rgb(252, 218, 234);
+    background: linear-gradient(to right, #ffffff 0%, #ff9999 100%);
 }
 
 .form {
@@ -20,18 +20,18 @@ body {
     flex-direction: column;
     gap: 10px;
     max-width: 350px;
-    background: rgb(251, 106, 155);
+    background: rgb(255, 255, 255);
     padding: 50px;
-    outline-style: auto;
-    outline-width: 50px;
-    outline-color: #fff;
+    outline-style: none;
+    outline-width: 70px;
+   
     border-radius: 20px;
     position: relative;
 }
 
 .title {
     font-size: 28px;
-    color: rgb(253, 195, 224);
+    color: rgb(171, 92, 92);
     font-weight: 600;
     letter-spacing: 0.3px;
     position: relative;
@@ -40,7 +40,7 @@ body {
 
 .message, 
 .signin {
-    color: #fff;
+    color: #ff6565;
     font-size: 14px;
     text-align: center;
 }
@@ -69,7 +69,7 @@ select {
   border-radius: 10px;
   font-size: 14px;
   background-color: #fff;
-  color: #8c2f51;
+  color: #ff7f7f;
 }
 
 .form label {
@@ -80,9 +80,9 @@ select {
 .form label input {
     width: 100%;
     padding: 10px 10px 20px 10px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
+    outline: auto;
+    border:rgb(213, 100, 105);
+    border-radius: 15px;
 }
 
 .form label input + span {
@@ -117,7 +117,7 @@ select {
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
-    color: rgb(220, 74, 108);
+    color: rgb(107, 35, 52);
     cursor: pointer;
     width: 20px;
     height: 20px;
@@ -131,7 +131,7 @@ select {
     outline-style: auto;
     outline-width: 20px;
     outline-color: #fff;
-    background: rgb(213, 45, 79);
+    background: rgb(239, 71, 105);
     padding: 20px;
     border-radius: 20px;
     color: #fff;

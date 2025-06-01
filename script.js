@@ -1,6 +1,5 @@
-
 document.getElementById("registrationForm").addEventListener("submit", function (e) {
-  e.preventDefault(); // prevent actual submission
+  e.preventDefault(); 
 
   const password = document.getElementById("password").value;
   const confirm = document.getElementById("confirmPassword").value;
@@ -11,4 +10,6 @@ document.getElementById("registrationForm").addEventListener("submit", function 
     alert("Registration successful!");
 
   }
+
+  
 });
