@@ -8,59 +8,57 @@
 </head>
 <body>
 <br>
-    <form autocomplete="off" class="form fade-in" id="registrationform" autocomplete="off">
-        <p class="title">Registry Form</p>
-        <p class="message">Sign up now!</p>
+<form id="registrationForm" class="form fade-in" id="registrationform">
+  <p class="title">Registry Form</p>
+  <p class="message">Sign up now!</p>
 
-    <div class="form-group">
+  <div class="form-group">
     <label>
-        <input type="text" name="full-name" placeholder="Full Name" required />
+      <input type="text" id="fullName" name="full-name" placeholder="Full Name" required />
     </label>
-</div>
-  
-<div class="form-group">
-     <label for="email">
-     <input type="email" id="email" name="email" placeholder="Your Email" required>
-</label>
-</div>
+  </div> 
 
-<div class="form-group">
+  <div class="form-group">
+    <label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+    </label>
+  </div>
+
+  <div class="form-group">
     <label for="password">
-    <input type="password" id="Password" placeholder="Password" required>
+      <input type="password" id="password" placeholder="Password" required>
     </label>
-</div>
+  </div>
 
-<div class="form-group">
-    <label for="password">
-    <input type="password" id="confirm" placeholder="Confirm Password" required>
+  <div class="form-group">
+    <label for="confirmPassword">
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
     </label>
-</div>
+  </div>
 
-<div class="form-group">
-    <label for="gender" id="mf" aria-placeholder="Gender" aria-required="true" style="color: rgb(255, 255, 255);">Gender
-    <select name="gender" id="mf">
+  <div class="form-group">
+    <label style="color: white;">Gender
+      <select name="gender" id="mf" required>
+        <option value="">Select Gender</option>
         <option value="male">Male</option>
         <option value="female">Female</option>
-    </select>
+      </select>
     </label>
-</div>
+  </div>
 
-<div>
+  <div>
     <input type="submit" class="submit"> 
-
-<br>
-<br>
+    <br><br>
     <p class="signin">
-        Already got an account?
-        <a href="#">Sign in!</a>
+      Already got an account?
+      <a href="#">Sign in!</a>
     </p>
+  </div>
+</form>
 
-</div>
-
-    </form>
 
     <script src="script.js"></script>
-<br>
+
 
 </body>
 </html>
