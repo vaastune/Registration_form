@@ -42,6 +42,12 @@ Confirmed Password      (empty)
 Expected result         Error: field is empty
 
 ```
+# Tools used
 
+* Microsoft edge developer tools: for device simulation
+* Google fonts
+* Git
 
-- _Kabwe Ruth_
+<br>
+<br>
+_Kabwe Ruth_
